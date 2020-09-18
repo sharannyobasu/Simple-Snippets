@@ -64,10 +64,9 @@ void countingsort(int *arr, int s, int r)
 	{
 		output[--count[arr[i]]]=arr[i];
 	}
-	cout<<"Yo"<<endl;
 	for(int i=0;i<s;i++)
 	{
-		cout<<output[i]<<" ";
+		arr[i]=output[i];
 	}
 }
 
@@ -97,4 +96,3 @@ int main()
 		cout<<arr[i]<<" ";
 	}
 }
-
